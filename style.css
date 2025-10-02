@@ -1,0 +1,93 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bbdbfa;
+    color: #333;
+}
+header{
+    background: url(Images/kenville-kenville-road-derelict-house-s-29-47-38-e-31-00-17-elev-84m-3.jpg) center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+header h1{
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 3px 4px 5px grey, 3px 4px 5px black;
+    font-weight: bolder;
+}
+nav{
+    background: #004080;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    font-size: 21px;  
+}
+section{
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+#history{
+    height: 600px;
+    overflow: auto;
+}
+footer{
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+button{
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    border-color: lightgrey;
+}
+#headpara{
+    font-weight: bolder;
+    text-shadow: 3px 4px 5px black;
+}
+#vees:hover{
+    font-size: 13px;
+    background-color: tomato;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#shayi:hover{
+    font-size: 13px;
+    background-color: greenyellow;
+    font-family: monospace;
+}
+#zama:hover{
+    font-size: 13px;
+    background-color: pink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sane:hover{
+    font-size: 13px;
+    background-color: rgb(247, 223, 227);
+    font-family: cursive;
+}
+#shopdivs{
+    text-align: center;
+    image-resolution: 500px;
+}
